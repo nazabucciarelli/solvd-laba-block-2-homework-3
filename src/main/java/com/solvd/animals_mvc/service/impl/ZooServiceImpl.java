@@ -1,13 +1,17 @@
 package com.solvd.animals_mvc.service.impl;
 
-import com.solvd.animals_mvc.dao.jdbc.impl.ZooDAOImpl;
+import com.solvd.animals_mvc.dao.ConnectionPool;
+import com.solvd.animals_mvc.dao.ConnectionTool;
+import com.solvd.animals_mvc.dao.DBFactory;
+import com.solvd.animals_mvc.dao.IZooDAO;
 import com.solvd.animals_mvc.model.Zoo;
 import com.solvd.animals_mvc.service.IZooService;
 
 import java.util.List;
 
 public class ZooServiceImpl implements IZooService {
-    private ZooDAOImpl zooDAO = new ZooDAOImpl();
+    private final IZooDAO zooDAO = DBFactory
+            .getZooDAO(ConnectionTool.valueOf(ConnectionPool.getFramework()));
 
     @Override
     public Long create(Zoo entity) {
@@ -21,7 +25,7 @@ public class ZooServiceImpl implements IZooService {
 
     @Override
     public void updateById(Zoo entity, Long id) {
-        zooDAO.updateEntity(entity,id);
+        zooDAO.updateEntity(entity, id);
     }
 
     @Override

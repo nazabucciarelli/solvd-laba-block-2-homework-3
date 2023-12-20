@@ -1,13 +1,17 @@
 package com.solvd.animals_mvc.service.impl;
 
-import com.solvd.animals_mvc.dao.jdbc.impl.AnimalRoomDAOImpl;
+import com.solvd.animals_mvc.dao.ConnectionPool;
+import com.solvd.animals_mvc.dao.ConnectionTool;
+import com.solvd.animals_mvc.dao.DBFactory;
+import com.solvd.animals_mvc.dao.IAnimalRoomDAO;
 import com.solvd.animals_mvc.model.AnimalRoom;
 import com.solvd.animals_mvc.service.IAnimalRoomService;
 
 import java.util.List;
 
 public class AnimalRoomServiceImpl implements IAnimalRoomService {
-    AnimalRoomDAOImpl animalRoomDAO = new AnimalRoomDAOImpl();
+    private final IAnimalRoomDAO animalRoomDAO = DBFactory
+            .getAnimalRoomDAO(ConnectionTool.valueOf(ConnectionPool.getFramework()));
 
     @Override
     public Long create(AnimalRoom entity) {
@@ -21,7 +25,7 @@ public class AnimalRoomServiceImpl implements IAnimalRoomService {
 
     @Override
     public void updateById(AnimalRoom entity, Long id) {
-        animalRoomDAO.updateEntity(entity,id);
+        animalRoomDAO.updateEntity(entity, id);
     }
 
     @Override

@@ -1,8 +1,10 @@
 package com.solvd.animals_mvc.dao.jdbc.impl;
 
 import com.solvd.animals_mvc.dao.ConnectionPool;
-import com.solvd.animals_mvc.dao.jdbc.IZooDAO;
+import com.solvd.animals_mvc.dao.IZooDAO;
 import com.solvd.animals_mvc.model.Zoo;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ZooDAOImpl implements IZooDAO {
+    private static final Logger LOGGER = LogManager
+            .getLogger(ZooDAOImpl.class);
+
     @Override
     public Zoo getEntityById(Long id) {
         Zoo zoo = null;
@@ -29,6 +34,7 @@ public class ZooDAOImpl implements IZooDAO {
                     String name = rs.getString("name");
                     int customers_capacity = rs.getInt("customers_capacity");
                     zoo = new Zoo(name, customers_capacity);
+                    LOGGER.info("Get Zoo by ID " + id + ": " + zoo);
                 }
             }
         } catch (SQLException e) {
@@ -56,7 +62,9 @@ public class ZooDAOImpl implements IZooDAO {
             ps.executeUpdate();
             try (ResultSet rs = ps.getGeneratedKeys()) {
                 if (rs.next()) {
-                    return rs.getLong(1);
+                    Long id = rs.getLong(1);
+                    LOGGER.info("Zoo entity was inserted with the ID:" + id);
+                    return id;
                 }
             }
         } catch (SQLException e) {
@@ -82,6 +90,7 @@ public class ZooDAOImpl implements IZooDAO {
             ps.setInt(2, updatedEntity.getCustomersCapacity());
             ps.setLong(3, id);
             ps.executeUpdate();
+            LOGGER.info("Zoo entity with the ID " + id + " was updated");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
@@ -103,6 +112,8 @@ public class ZooDAOImpl implements IZooDAO {
             ps.setString(1, entity.getName());
             ps.setInt(2, entity.getCustomersCapacity());
             ps.executeUpdate();
+            LOGGER.info("Zoo entity with the data " + entity
+                    + " was removed");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
@@ -133,6 +144,8 @@ public class ZooDAOImpl implements IZooDAO {
         } finally {
             ConnectionPool.releaseConnection(conn);
         }
+        LOGGER.info("The entities from the Zoo table are:");
+        zooList.forEach(LOGGER::info);
         return zooList;
     }
 }

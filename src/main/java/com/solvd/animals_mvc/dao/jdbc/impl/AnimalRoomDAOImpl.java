@@ -1,8 +1,10 @@
 package com.solvd.animals_mvc.dao.jdbc.impl;
 
 import com.solvd.animals_mvc.dao.ConnectionPool;
-import com.solvd.animals_mvc.dao.jdbc.IAnimalRoomDAO;
+import com.solvd.animals_mvc.dao.IAnimalRoomDAO;
 import com.solvd.animals_mvc.model.AnimalRoom;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
+    private static final Logger LOGGER = LogManager
+            .getLogger(AnimalRoomDAOImpl.class);
+
     @Override
     public AnimalRoom getEntityById(Long id) {
         AnimalRoom animalRoom = null;
@@ -30,6 +35,7 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
                     int capacity = rs.getInt("capacity");
                     Long zooId = rs.getLong("zoos_id");
                     animalRoom = new AnimalRoom(name, capacity, zooId);
+                    LOGGER.info("Get Animal Room by ID " + id + ": " + animalRoom);
                 }
             }
         } catch (SQLException e) {
@@ -58,7 +64,9 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
             ps.executeUpdate();
             try (ResultSet rs = ps.getGeneratedKeys()) {
                 if (rs.next()) {
-                    return rs.getLong(1);
+                    Long id = rs.getLong(1);
+                    LOGGER.info("Animal Room entity was inserted with the ID:" + id);
+                    return id;
                 }
             }
         } catch (SQLException e) {
@@ -85,6 +93,7 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
             ps.setLong(3, updatedEntity.getZooId());
             ps.setLong(4, id);
             ps.executeUpdate();
+            LOGGER.info("Animal Room entity with the ID " + id + " was updated");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
@@ -107,6 +116,8 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
             ps.setInt(2, entity.getCapacity());
             ps.setLong(3, entity.getZooId());
             ps.executeUpdate();
+            LOGGER.info("Animal Room entity with the data " + entity
+                    + " was removed");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
@@ -138,6 +149,8 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
         } finally {
             ConnectionPool.releaseConnection(conn);
         }
+        LOGGER.info("The entities from the Animal Rooms table are:");
+        animalRoomList.forEach(LOGGER::info);
         return animalRoomList;
     }
 }

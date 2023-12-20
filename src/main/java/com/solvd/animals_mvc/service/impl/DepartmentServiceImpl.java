@@ -1,13 +1,17 @@
 package com.solvd.animals_mvc.service.impl;
 
-import com.solvd.animals_mvc.dao.jdbc.impl.DepartmentDAOImpl;
+import com.solvd.animals_mvc.dao.ConnectionPool;
+import com.solvd.animals_mvc.dao.ConnectionTool;
+import com.solvd.animals_mvc.dao.DBFactory;
+import com.solvd.animals_mvc.dao.IDepartmentDAO;
 import com.solvd.animals_mvc.model.Department;
 import com.solvd.animals_mvc.service.IDepartmentService;
 
 import java.util.List;
 
 public class DepartmentServiceImpl implements IDepartmentService {
-    DepartmentDAOImpl departmentDAO = new DepartmentDAOImpl();
+    private final IDepartmentDAO departmentDAO = DBFactory
+            .getDepartmentDAO(ConnectionTool.valueOf(ConnectionPool.getFramework()));
 
     @Override
     public Long create(Department entity) {
@@ -21,7 +25,7 @@ public class DepartmentServiceImpl implements IDepartmentService {
 
     @Override
     public void updateById(Department entity, Long id) {
-        departmentDAO.updateEntity(entity,id);
+        departmentDAO.updateEntity(entity, id);
     }
 
     @Override

@@ -25,7 +25,7 @@ public class ConnectionPool {
     static {
         properties = new Properties();
         try (FileInputStream f = new FileInputStream("src/main/resources/" +
-                                                        "db.properties")) {
+                                                        "config.properties")) {
             properties.load(f);
         } catch (IOException e) {
             LOGGER.info(e);
@@ -64,7 +64,11 @@ public class ConnectionPool {
         return false;
     }
 
-    public static int getSize() {
-        return connectionPool.size() + usedConnections.size();
+    public static int getPoolSize() {
+        return connectionPool.size();
+    }
+
+    public static String getFramework() {
+        return properties.getProperty("framework");
     }
 }

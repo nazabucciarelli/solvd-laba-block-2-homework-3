@@ -1,0 +1,41 @@
+2023-12-20 15:45:17,021 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity was inserted with the ID:8
+2023-12-20 15:45:17,026 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity with the ID 8 was updated
+2023-12-20 15:45:17,029 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity was inserted with the ID:9
+2023-12-20 15:45:17,032 INFO c.s.a.d.j.i.ZooDAOImpl [main] Get Zoo by ID 9: Zoo{name='American Zoo', customerCapacity=560}
+2023-12-20 15:45:17,034 INFO c.s.a.d.j.i.ZooDAOImpl [main] The entities from the Zoo table are:
+2023-12-20 15:45:17,036 INFO j.u.ArrayList [main] Zoo{name='Texas Zoo', customerCapacity=300}
+2023-12-20 15:45:17,036 INFO j.u.ArrayList [main] Zoo{name='Texas Zoo', customerCapacity=300}
+2023-12-20 15:45:17,037 INFO j.u.ArrayList [main] Zoo{name='Texas Zoo', customerCapacity=300}
+2023-12-20 15:45:17,037 INFO j.u.ArrayList [main] Zoo{name='Texas Zoo', customerCapacity=300}
+2023-12-20 15:45:17,037 INFO j.u.ArrayList [main] Zoo{name='American Zoo', customerCapacity=560}
+2023-12-20 15:45:17,041 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity with the data Zoo{name='American Zoo', customerCapacity=560} was removed
+2023-12-20 15:45:17,044 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:10
+2023-12-20 15:45:17,047 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:11
+2023-12-20 15:45:17,049 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the ID 11 was updated
+2023-12-20 15:45:17,056 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Amphibians', capacity=50, zooId=8} was removed
+2023-12-20 15:45:17,057 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Get Animal Room by ID 11: AnimalRoom{name='Birds', capacity=110, zooId=8}
+2023-12-20 15:45:17,060 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:12
+2023-12-20 15:45:17,062 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] The entities from the Animal Rooms table are:
+2023-12-20 15:45:17,062 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=110, zooId=2}
+2023-12-20 15:45:17,062 INFO j.u.ArrayList [main] AnimalRoom{name='Aquarium', capacity=430, zooId=2}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=110, zooId=4}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Aquarium', capacity=430, zooId=4}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=110, zooId=6}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Aquarium', capacity=430, zooId=6}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=110, zooId=8}
+2023-12-20 15:45:17,063 INFO j.u.ArrayList [main] AnimalRoom{name='Aquarium', capacity=430, zooId=8}
+2023-12-20 15:45:17,067 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:8
+2023-12-20 15:45:17,070 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:9
+2023-12-20 15:45:17,072 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the ID 9 was updated
+2023-12-20 15:45:17,073 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] The entities from the Departments table are:
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=2}
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='HR Department', zooId=2}
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=4}
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='HR Department', zooId=4}
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=6}
+2023-12-20 15:45:17,074 INFO j.u.ArrayList [main] Department{name='HR Department', zooId=6}
+2023-12-20 15:45:17,075 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=8}
+2023-12-20 15:45:17,075 INFO j.u.ArrayList [main] Department{name='HR Department', zooId=8}
+2023-12-20 15:45:17,076 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Vet Department', zooId=8} was removed
+2023-12-20 15:45:17,077 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Get Department by ID 9: Department{name='HR Department', zooId=8}
+2023-12-20 15:45:17,078 INFO c.s.a.Main [main] 5
