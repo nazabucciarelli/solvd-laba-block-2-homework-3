@@ -5,140 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10b47513-74f6-435d-b37d-71b5cc18b5da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/ConnectionTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/DBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/AnimalRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/ZooService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:11:55.382.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:14:20.782.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:17:55.641.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:18:57.137.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:30:21.954.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:31:20.370.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:33:45.075.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:36:36.355.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:37:08.142.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:49:00.122.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:49:10.822.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 18:59:01.358.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 19:06:12.455.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 19:12:40.979.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 19:12:57.118.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 19:13:57.172.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 19:18:36.495.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 20:54:26.640.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 20:55:03.592.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 20:57:35.981.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 20:59:58.652.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:01:58.501.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:06:29.577.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:06:54.495.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:07:05.574.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:08:23.291.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:11:46.432.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:12:33.386.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:13:24.042.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:15:22.657.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:17:04.759.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 21:17:35.526.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 23:53:33.875.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 23:54:03.587.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 23:54:53.606.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 23:56:17.958.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-03-12-2023 23:58:09.100.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-04-12-2023 00:02:55.262.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-04-12-2023 00:04:01.426.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-05-12-2023 18:44:46.670.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-05-12-2023 18:44:59.617.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-05-12-2023 18:45:22.688.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-05-12-2023 18:45:42.162.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-05-12-2023 18:50:42.163.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 15:53:22.889.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 15:54:44.418.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 15:55:42.560.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 15:56:59.913.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 15:58:15.286.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:15:10.773.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:16:01.290.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:17:53.031.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:18:52.232.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:19:26.926.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:26:26.447.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:28:27.857.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:28:42.429.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:29:01.270.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:30:22.386.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 16:35:27.495.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:31:34.933.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:32:04.138.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:32:54.307.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:39:54.804.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:41:08.536.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:41:42.725.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:42:03.679.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:45:05.074.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:46:22.519.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:47:32.660.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:49:14.982.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:52:29.066.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:53:08.981.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:57:37.073.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:58:36.350.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:59:02.238.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 18:59:58.545.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:00:27.854.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:13:14.557.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:14:10.574.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:14:50.887.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:18:49.630.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:20:48.228.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 19:21:03.077.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-06-12-2023 22:52:43.551.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-07-12-2023 11:21:40.845.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-08-11-2023 20:22:38.238.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-12-11-2023 15:21:38.541.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-12-11-2023 17:29:35.488.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-14-11-2023 15:29:12.794.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 22:32:25.303.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 22:33:15.363.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 22:35:08.676.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 23:16:34.065.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 23:16:55.144.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-20-11-2023 23:29:28.830.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 00:47:17.893.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:00:49.311.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:01:16.524.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:18:49.401.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:19:04.467.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:19:17.628.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-22-11-2023 01:24:04.974.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 08:31:01.196.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 08:46:12.747.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 10:11:29.351.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 10:30:23.018.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 10:36:50.584.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 10:37:12.232.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 10:37:57.217.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 11:02:44.955.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 11:47:34.754.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 11:49:06.756.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 12:06:01.877.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 12:30:24.204.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-28-11-2023 12:30:45.249.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/IAnimalRoomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IAnimalRoomDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/IDepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IDepartmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/IZooDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IZooDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IDepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IDepartmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IZooDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/IZooDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/AnimalRoomDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/AnimalRoomDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/DepartmentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/DepartmentDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/ZooDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/dao/jdbc/impl/ZooDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/AnimalRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/AnimalRoomServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/ZooServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/ZooServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/exception/EmptyFieldException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/exception/EmptyFieldException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/exception/IdLengthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/exception/IdLengthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/exception/ImpossibleEntryYearException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/exception/ImpossibleEntryYearException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/exception/NegativeValueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/exception/NegativeValueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/exception/NotAllowedSalaryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/exception/NotAllowedSalaryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/IAnimalRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/IBaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/IDepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/IZooService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/AnimalRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/animals_mvc/service/impl/ZooServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,12 +178,34 @@
       <workItem from="1703020798216" duration="8351000" />
       <workItem from="1703033390342" duration="538000" />
       <workItem from="1703044317374" duration="4682000" />
-      <workItem from="1703093236460" duration="7271000" />
+      <workItem from="1703093236460" duration="7877000" />
+      <workItem from="1703189965007" duration="9550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

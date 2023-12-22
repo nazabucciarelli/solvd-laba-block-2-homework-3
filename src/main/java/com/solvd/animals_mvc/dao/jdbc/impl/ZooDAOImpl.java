@@ -144,8 +144,6 @@ public class ZooDAOImpl implements IZooDAO {
         } finally {
             ConnectionPool.releaseConnection(conn);
         }
-        LOGGER.info("The entities from the Zoo table are:");
-        zooList.forEach(LOGGER::info);
         return zooList;
     }
 }

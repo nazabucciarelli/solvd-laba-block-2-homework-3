@@ -1,0 +1,3 @@
+2023-12-21 22:36:43,817 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 6
+2023-12-21 22:36:43,834 INFO c.s.a.s.ZooService [main] Animal Rooms from the zoo with id 6
+2023-12-21 22:36:43,837 INFO c.s.a.Main [main] 5

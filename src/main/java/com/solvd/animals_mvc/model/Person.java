@@ -1,9 +1,7 @@
 package com.solvd.animals_mvc.model;
 
-import com.solvd.animals_mvc.exception.EmptyFieldException;
-import com.solvd.animals_mvc.exception.NegativeValueException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.solvd.animals_mvc.model.exception.EmptyFieldException;
+import com.solvd.animals_mvc.model.exception.NegativeValueException;
 
 public class Person {
     private int age;

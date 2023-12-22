@@ -1,0 +1,37 @@
+2023-12-21 22:29:11,123 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity was inserted with the ID:2
+2023-12-21 22:29:11,131 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:1
+2023-12-21 22:29:11,135 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:2
+2023-12-21 22:29:11,137 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:2
+2023-12-21 22:29:11,139 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] The entities from the Animal Rooms table are:
+2023-12-21 22:29:11,144 INFO j.u.ArrayList [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,144 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,145 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,145 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,149 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:3
+2023-12-21 22:29:11,151 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Get Department by ID 3: Department{name='Vet Department', zooId=2}
+2023-12-21 22:29:11,152 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] The entities from the Animal Rooms table are:
+2023-12-21 22:29:11,152 INFO j.u.ArrayList [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,153 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,153 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,153 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,154 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 2
+2023-12-21 22:29:11,155 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] The entities from the Departments table are:
+2023-12-21 22:29:11,155 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=2}
+2023-12-21 22:29:11,156 INFO j.u.ArrayList [main] Department{name='Vet Department', zooId=2}
+2023-12-21 22:29:11,156 INFO c.s.a.s.ZooService [main] Animal Rooms from the zoo with id 2
+2023-12-21 22:29:11,158 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] The entities from the Animal Rooms table are:
+2023-12-21 22:29:11,158 INFO j.u.ArrayList [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,158 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,161 INFO c.s.a.d.j.i.ZooDAOImpl [main] Get Zoo by ID 2: Zoo{name='California Zoo', customerCapacity=1000}
+2023-12-21 22:29:11,162 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] The entities from the Departments table are:
+2023-12-21 22:29:11,163 INFO j.u.ArrayList [main] Department{name='Business Department', zooId=2}
+2023-12-21 22:29:11,163 INFO j.u.ArrayList [main] Department{name='Vet Department', zooId=2}
+2023-12-21 22:29:11,166 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Business Department', zooId=2} was removed
+2023-12-21 22:29:11,168 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Vet Department', zooId=2} was removed
+2023-12-21 22:29:11,169 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] The entities from the Animal Rooms table are:
+2023-12-21 22:29:11,170 INFO j.u.ArrayList [main] AnimalRoom{name='Amphibians', capacity=170, zooId=2}
+2023-12-21 22:29:11,170 INFO j.u.ArrayList [main] AnimalRoom{name='Birds', capacity=200, zooId=2}
+2023-12-21 22:29:11,172 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Amphibians', capacity=170, zooId=2} was removed
+2023-12-21 22:29:11,175 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Birds', capacity=200, zooId=2} was removed
+2023-12-21 22:29:11,178 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity with the data Zoo{name='California Zoo', customerCapacity=1000} was removed
+2023-12-21 22:29:11,179 INFO c.s.a.Main [main] 5

@@ -144,8 +144,6 @@ public class DepartmentDAOImpl implements IDepartmentDAO {
         } finally {
             ConnectionPool.releaseConnection(conn);
         }
-        LOGGER.info("The entities from the Departments table are:");
-        departmentList.forEach(LOGGER::info);
         return departmentList;
     }
 }

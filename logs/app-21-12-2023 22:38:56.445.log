@@ -1,0 +1,4 @@
+2023-12-21 22:38:57,102 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 6
+2023-12-21 22:38:57,124 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{name='Business Department', zooId=6}
+2023-12-21 22:38:57,124 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{name='Vet Department', zooId=6}
+2023-12-21 22:38:57,124 INFO c.s.a.Main [main] 5

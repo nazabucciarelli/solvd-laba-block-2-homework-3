@@ -149,8 +149,6 @@ public class AnimalRoomDAOImpl implements IAnimalRoomDAO {
         } finally {
             ConnectionPool.releaseConnection(conn);
         }
-        LOGGER.info("The entities from the Animal Rooms table are:");
-        animalRoomList.forEach(LOGGER::info);
         return animalRoomList;
     }
 }

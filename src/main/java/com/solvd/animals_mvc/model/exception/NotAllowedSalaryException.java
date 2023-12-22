@@ -1,4 +1,4 @@
-package com.solvd.animals_mvc.exception;
+package com.solvd.animals_mvc.model.exception;
 
 public class NotAllowedSalaryException extends RuntimeException{
 

@@ -1,0 +1,25 @@
+2023-12-21 22:42:07,935 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity was inserted with the ID:3
+2023-12-21 22:42:07,942 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:3
+2023-12-21 22:42:07,946 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:4
+2023-12-21 22:42:07,949 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:4
+2023-12-21 22:42:07,950 INFO c.s.a.s.AnimalRoomService [main] The animal rooms with capacity over 100 are:
+2023-12-21 22:42:07,959 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=3}
+2023-12-21 22:42:07,960 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=3}
+2023-12-21 22:42:07,964 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:5
+2023-12-21 22:42:07,966 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Get Department by ID 5: Department{name='Vet Department', zooId=3}
+2023-12-21 22:42:07,967 INFO c.s.a.s.DepartmentService [main] The animal rooms within the same zoo as the department are:
+2023-12-21 22:42:07,971 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=3}
+2023-12-21 22:42:07,972 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=3}
+2023-12-21 22:42:07,972 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 3
+2023-12-21 22:42:07,974 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{name='Business Department', zooId=3}
+2023-12-21 22:42:07,974 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{name='Vet Department', zooId=3}
+2023-12-21 22:42:07,976 INFO c.s.a.s.ZooService [main] Animal rooms from the zoo with id 3
+2023-12-21 22:42:07,978 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] AnimalRoom{name='Amphibians', capacity=170, zooId=3}
+2023-12-21 22:42:07,978 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] AnimalRoom{name='Birds', capacity=200, zooId=3}
+2023-12-21 22:42:07,981 INFO c.s.a.d.j.i.ZooDAOImpl [main] Get Zoo by ID 3: Zoo{name='California Zoo', customerCapacity=1000}
+2023-12-21 22:42:07,987 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Business Department', zooId=3} was removed
+2023-12-21 22:42:07,989 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Vet Department', zooId=3} was removed
+2023-12-21 22:42:07,993 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Amphibians', capacity=170, zooId=3} was removed
+2023-12-21 22:42:07,996 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Birds', capacity=200, zooId=3} was removed
+2023-12-21 22:42:08,000 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity with the data Zoo{name='California Zoo', customerCapacity=1000} was removed
+2023-12-21 22:42:08,000 INFO c.s.a.Main [main] 5

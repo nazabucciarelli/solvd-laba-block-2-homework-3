@@ -1,0 +1,20 @@
+2023-12-21 22:31:51,839 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity was inserted with the ID:4
+2023-12-21 22:31:51,846 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:5
+2023-12-21 22:31:51,850 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:6
+2023-12-21 22:31:51,854 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity was inserted with the ID:6
+2023-12-21 22:31:51,854 INFO c.s.a.s.AnimalRoomService [main] The animal rooms with capacity over 100 are:
+2023-12-21 22:31:51,861 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=4}
+2023-12-21 22:31:51,862 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=4}
+2023-12-21 22:31:51,865 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity was inserted with the ID:7
+2023-12-21 22:31:51,867 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Get Department by ID 7: Department{name='Vet Department', zooId=4}
+2023-12-21 22:31:51,868 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Amphibians', capacity=170, zooId=4}
+2023-12-21 22:31:51,869 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{name='Birds', capacity=200, zooId=4}
+2023-12-21 22:31:51,869 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 4
+2023-12-21 22:31:51,871 INFO c.s.a.s.ZooService [main] Animal Rooms from the zoo with id 4
+2023-12-21 22:31:51,875 INFO c.s.a.d.j.i.ZooDAOImpl [main] Get Zoo by ID 4: Zoo{name='California Zoo', customerCapacity=1000}
+2023-12-21 22:31:51,881 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Business Department', zooId=4} was removed
+2023-12-21 22:31:51,884 INFO c.s.a.d.j.i.DepartmentDAOImpl [main] Department entity with the data Department{name='Vet Department', zooId=4} was removed
+2023-12-21 22:31:51,889 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Amphibians', capacity=170, zooId=4} was removed
+2023-12-21 22:31:51,891 INFO c.s.a.d.j.i.AnimalRoomDAOImpl [main] Animal Room entity with the data AnimalRoom{name='Birds', capacity=200, zooId=4} was removed
+2023-12-21 22:31:51,894 INFO c.s.a.d.j.i.ZooDAOImpl [main] Zoo entity with the data Zoo{name='California Zoo', customerCapacity=1000} was removed
+2023-12-21 22:31:51,894 INFO c.s.a.Main [main] 5
